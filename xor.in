@@ -1,0 +1,15 @@
+title = (exclusive or)
+LR = 0.5
+momentum = 0
+goal = 0.001
+epochs = 10000
+interval = 1000
+layers = ((logsig 2) (hardlim 1))
+
+samples =
+(
+ ((0 0)(0))
+ ((0 1)(1))
+ ((1 0)(1))
+ ((1 1)(0))
+)
